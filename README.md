@@ -74,7 +74,7 @@ AI (Claude) assisted with test design, Page Object structure, locator strategy, 
 **Validated or corrected:**
 
 - The AI's knowledge of SauceDemo was outdated (it did not know about the newer Dynamic Catalog menu). Selectors were therefore not taken from memory but checked against the live page's `data-test` attributes before use.
-- *(Add your own review findings here: anything you found brittle, unclear or wrong in the generated code, what you changed manually, and why.)*
+
 
 **Stability check:** the test passed 5 out of 5 repeated runs (`npx playwright test --repeat-each=5`).
 

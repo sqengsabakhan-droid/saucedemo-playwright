@@ -1,0 +1,15 @@
+{
+  "name": "saucedemo-playwright",
+  "version": "1.0.0",
+  "description": "AI-assisted Playwright E2E test for the SauceDemo checkout flow",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "author": "Saba Khan",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2"
+  }
+}
